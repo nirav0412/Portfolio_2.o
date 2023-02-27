@@ -1,0 +1,496 @@
+body {
+    /* padding: 0 13% 0 13%; */
+    /* background-color: #272727; */
+    color: #272727;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-back {
+    background-image: url(/02hero.jpg);
+}
+
+/* for mobiles */
+@media all and (max-width: 767px) {
+    a {
+        color: red;
+    }
+
+    .my-intro {
+        padding-top: 10%;
+
+        gap: 40%;
+    }
+
+    .intro-part-right {
+        padding-top: 30%;
+    }
+
+    .name-links p {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .social-link img {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .second-right {
+        margin-top: 40px;
+    }
+
+    .domain-1 {
+        border-radius: 20px;
+        padding: 6%;
+        background-color: #1345e675;
+        margin-bottom: 30px;
+    }
+
+
+    /*-------------------- </> nirav kathrotiya second comtainer------------------- */
+
+    .italic-line {
+        background-image: linear-gradient(0deg, #fa9229, #8703ee);
+        height: 24px;
+        width: 3.5px;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(17deg) skew(0deg, 0deg);
+    }
+
+    .name-class {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
+
+    .name-animation {
+        margin: 0;
+    }
+
+    .name-animation p {
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 10px;
+    }
+
+    .img-1 img {
+        height: 20px;
+        width: 20px;
+        margin-right: 7px;
+    }
+
+    .img-2 img {
+        height: 20px;
+        width: 20px;
+        margin-left: 7px;
+    }
+
+    /* ------------------------------------------------ */
+
+}
+
+/* for laptop and computers */
+@media all and (min-width: 767px) {
+    a {
+        color: red;
+    }
+
+    .my-intro {
+        padding-top: 7%;
+        display: flex;
+        gap: 30.7%;
+    }
+
+    .name-links p {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .social-link img {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .contact-project {
+        display: flex;
+        gap: 32%;
+    }
+
+    .all-domain {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .domain-1 {
+        padding: 6%;
+        background-color: #1345e675;
+        margin-top: -13%;
+    }
+
+    /*-------------------- </> nirav kathrotiya second comtainer------------------- */
+    .main-container {
+        padding: 13% 0 19% 0;
+    }
+
+    .italic-line {
+        background-image: linear-gradient(0deg, #fa9229, #8703ee);
+        height: 60px;
+        width: 6px;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(17deg) skew(0deg, 0deg);
+    }
+
+    .name-class {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
+
+    .name-animation {
+        margin: 0;
+    }
+
+    .name-animation p,
+    .name-anm,
+    .name-anm-2 {
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        font-size: 3rem;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+
+    .name-anm,
+    .name-anm-2 {
+        text-align: center;
+        color: white;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .name-anm-2 {
+        font-size: 16px;
+        color: #ffffffa1;
+    }
+
+    .img-1 {
+        margin-right: 20px;
+    }
+
+    .img-2 {
+        margin-left: 10px;
+    }
+
+    .hire-me,
+    .dwn-cv {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .hire-me a,
+    .dwn-cv a {
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: #d2a2f7;
+        font-weight: 500;
+        border: 2px solid #8703ee;
+        padding: 1% 3%;
+        border-radius: 25px;
+        transition: all 0.5s ease;
+    }
+
+    .hire-me a:hover,
+    .dwn-cv a:hover {
+        color: white;
+        background-color: #8703ee;
+    }
+
+    /* ------------------------------------------------ */
+
+}
+
+.mail-id,
+.ep-num,
+span,
+.intro-part-right span,
+.my-story-btn {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.my-intro-spell::before {
+    content: '';
+    position: absolute;
+    translate: -30px 10px;
+    width: 25px;
+    height: 2px;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    box-sizing: border-box;
+}
+
+.my-intro-spell {
+    margin: 0;
+    margin-left: 27px;
+}
+
+.who-i-am {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    margin: 0;
+    font-size: 150%;
+}
+
+.about-para {
+    color: #3b3939f0;
+    font-size: 85%;
+}
+
+.my-story-btn {
+    text-decoration: none;
+    color: #272727;
+}
+
+.right-arrow {
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.re-direct {
+    display: flex;
+    gap: 4%;
+}
+
+.for-contact,
+.quote {
+    font-size: 150%;
+    margin: 0;
+}
+
+.contact-line {
+    font-size: 85%;
+    color: #272727c3;
+}
+
+.mail-id {
+    text-decoration: none;
+}
+
+.quote {
+    font-size: 150%;
+}
+
+/* Second Part - right - second line  */
+.ep-num p {
+    color: #1345e6;
+    margin: 0;
+    font-size: 45px;
+    margin-right: 5px;
+    margin-top: -12px;
+}
+
+
+.domain-1 p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+    background-color: #fa912900;
+}
+
+/* ---------------------Blog - Boxes------------------ */
+
+.main-blog-box {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.blog-box {
+    max-width: 23.333333%;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    background-color: #f8faff;
+}
+
+.web-img {
+    display: flex;
+    margin: 0 auto 30px auto;
+}
+
+.blog-name {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.info-web {
+    font-weight: 300;
+    color: #797979;
+    margin-top: 40px;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.mehul {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.mehul::before {
+    content: '';
+    position: absolute;
+    translate: 0 35px;
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    box-sizing: border-box;
+}
+
+.blog-box:hover {
+    background-color: #5f30ff;
+}
+
+.blog-box:hover p,
+.blog-box:hover a {
+    color: #f8faff;
+}
+
+.blog-box:hover .mehul::before {
+    background: #f8faff;
+}
+
+/* --------------------------------------------------- */
+.thank-line p {
+    color: #1345e6;
+    text-align: center;
+}
+
+.skills-img img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
+}
+
+/* -------------- */
+/* Download cv */
+.dwn-cv a {
+    color: #8703ee;
+    box-shadow: 0 5px 15px #8703ee59;
+}
+
+.cv-logo::before {
+    content: "\f019";
+}
+
+/* --------- - */
+
+/* -------projects image boxes------------- */
+.project-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-head {
+    color: black;
+    font-size: 140%;
+    margin: 0;
+}
+
+.project-tagline {
+    color: #6a3a09d4;
+    font-size: 150%;
+}
+
+.image-container,
+.image-container-1 {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.image-container img,
+.image-container-1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    backdrop-filter: blur(15px);
+}
+
+.name-on-image {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.name-on-image a{
+    text-decoration: none;
+    color: white;
+}
+
+.image-container img:hover,
+.image-container-1 img:hover,.name-on-image:hover {
+    transform: scale(1.08);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s;
+    opacity: 1;
+}
+
+.name-on-image:hover {
+    opacity: 1;
+}
+
+.image-container-1 {
+    width: 270px;
+    height: 450px;
+}
+
+/* ----------------------------------------- */
